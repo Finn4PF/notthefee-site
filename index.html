@@ -1,22 +1,70 @@
-<section id="deal-tracking">
-  <h2>Deal Tracking</h2>
-  <div class="tab-container">
-    <div class="tabs">
-      <button class="tab-button active" onclick="showTab('top-deals')">Top Deals</button>
-      <button class="tab-button" onclick="showTab('top-pullers-total')">Top Package Puller – Total</button>
-      <button class="tab-button" onclick="showTab('top-pullers-value')">Top Package Puller – Value</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4Pillar Funding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">NotTheFee</div>
+    <nav>
+      <ul>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#deal-tracking">Deal Tracking</a></li>
+        <li><a href="#milestones">Employee/Team Milestones</a></li>
+        <li><a href="#helpbook">Helpbook</a></li>
+        <li><a href="#partnerships">Partnerships</a></li>
+        <li><a href="#predictive-index">Predictive Index</a></li>
+        <li><a href="#teams">Teams</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <img src="assets/inc5000.png" alt="Inc. 5000 Badge" class="badge" />
+    <h1 class="glow">4Pillar Funding</h1>
+    <p class="subtitle">Strategic recruitment, partnership management, and deal tracking solutions powered by advanced predictive analytics.</p>
+    <div class="buttons">
+      <a href="#calendar" class="button primary">Explore Features</a>
+      <a href="#calendar" class="button secondary">Schedule a Demo</a>
     </div>
-    <div class="tab-content active" id="top-deals">
-      <p>Loading top deals...</p>
+  </section>
+
+  <section id="calendar"><h2>Company Calendar</h2>
+    <iframe src="https://calendar.google.com/calendar/embed?src=c_4b74f64809807d84c9c29fb4847c7fb2e3b98c3301a44f13f980ec67016e029e%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </section>
+
+  <section id="deal-tracking">
+    <h2>Deal Tracking</h2>
+    <div class="tab-container">
+      <div class="tabs">
+        <button class="tab-button active" onclick="showTab('top-deals')">Top Deals</button>
+        <button class="tab-button" onclick="showTab('top-pullers-total')">Top Package Puller – Total</button>
+        <button class="tab-button" onclick="showTab('top-pullers-value')">Top Package Puller – Value</button>
+      </div>
+      <div class="tab-content active" id="top-deals">
+        <p>Loading top deals...</p>
+      </div>
+      <div class="tab-content" id="top-pullers-total">
+        <p>Loading top package pullers by total deals...</p>
+      </div>
+      <div class="tab-content" id="top-pullers-value">
+        <p>Loading top package pullers by deal value...</p>
+      </div>
     </div>
-    <div class="tab-content" id="top-pullers-total">
-      <p>Loading top package pullers by total deals...</p>
-    </div>
-    <div class="tab-content" id="top-pullers-value">
-      <p>Loading top package pullers by deal value...</p>
-    </div>
-  </div>
-</section>
+  </section>
+
+  <section id="milestones"><h2>Employee/Team Milestones</h2></section>
+  <section id="helpbook"><h2>Helpbook</h2></section>
+  <section id="partnerships"><h2>Partnerships</h2></section>
+  <section id="predictive-index"><h2>Predictive Index</h2></section>
+  <section id="teams"><h2>Teams</h2></section>
+
+  <footer>
+    <p>&copy; 2025 4Pillar Funding. All rights reserved.</p>
+  </footer>
 
 <script>
   function showTab(tabId) {
@@ -26,3 +74,5 @@
     document.querySelector('[onclick="showTab(\'' + tabId + '\')"]').classList.add('active');
   }
 </script>
+</body>
+</html>
