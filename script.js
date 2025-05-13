@@ -17,7 +17,7 @@ fetch('simulated_zendesk_deals.json')
 
     const table = document.createElement('table');
     table.className = 'deal-table';
-    const headers = ['Deal Name', 'Value', 'Funding Company', 'Pipeline Stage', 'Ownership', 'Package Puller', 'Deal/Renewal', 'Last Stage Change'];
+    const headers = ['Deal Name', 'Value', 'Funding Company', 'Pipeline Stage', 'Ownership', 'Package Puller', 'Last Stage Change'];
     const thead = table.createTHead();
     const headerRow = thead.insertRow();
     headers.forEach(h => {
@@ -36,7 +36,6 @@ fetch('simulated_zendesk_deals.json')
         <td>${deal.pipeline_stage}</td>
         <td>${deal.ownership}</td>
         <td>${deal.package_puller}</td>
-        <td>${deal.deal_or_renewal}</td>
         <td>${new Date(deal.last_stage_change).toLocaleDateString()}</td>
       `;
     });

@@ -6,7 +6,6 @@
     "pipeline_stage": "Contract In",
     "ownership": "Alex Hoppe",
     "package_puller": "Zach Forbes",
-    "deal_or_renewal": "New Deal",
     "last_stage_change": "2025-05-11"
   },
   {
@@ -16,7 +15,6 @@
     "pipeline_stage": "Contract In",
     "ownership": "Alex Hoppe",
     "package_puller": "Zach Forbes",
-    "deal_or_renewal": "New Deal",
     "last_stage_change": "2025-05-10"
   }
 ]
