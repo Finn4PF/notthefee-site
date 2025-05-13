@@ -18,25 +18,5 @@
     "package_puller": "Zach Forbes",
     "deal_or_renewal": "New Deal",
     "last_stage_change": "2025-05-10"
-  },
-  {
-    "deal_name": "XYZ Transport",
-    "value": 64000,
-    "funding_company": "Velocity",
-    "pipeline_stage": "Contracts Out",
-    "ownership": "Nolan Isabella",
-    "package_puller": "Bella Nelson",
-    "deal_or_renewal": "Renewal",
-    "last_stage_change": "2025-05-11"
-  },
-  {
-    "deal_name": "Techly Inc.",
-    "value": 51000,
-    "funding_company": "CFG",
-    "pipeline_stage": "Pitched",
-    "ownership": "Wade Miller",
-    "package_puller": "Luke Pascarello",
-    "deal_or_renewal": "New Deal",
-    "last_stage_change": "2025-05-12"
   }
 ]
