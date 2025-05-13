@@ -4,6 +4,67 @@ body {
   background: linear-gradient(to bottom, #0a0a0a, #1c1c1c);
   color: white;
 }
+.logo {
+  font-weight: bold;
+  color: #99ff33;
+  font-size: 1.5em;
+  padding: 10px 20px;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 10px 20px;
+  background: #000;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ff9900;
+}
+.hero-center {
+  text-align: center;
+  margin-top: 40px;
+}
+.badge-large {
+  display: block;
+  margin: 0 auto;
+  width: 23%;
+}
+.glow-title {
+  font-size: 3.5em;
+  color: #ffcc00;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffaa00;
+}
+.subtitle {
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.buttons {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.button.primary {
+  background: #ffaa00;
+  color: black;
+}
+.button.secondary {
+  background: #333;
+  color: white;
+}
 .deal-table {
   width: 100%;
   border-collapse: collapse;
