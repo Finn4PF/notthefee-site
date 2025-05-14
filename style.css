@@ -6,11 +6,19 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-image: url('inc5000.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.95;
 }
+
 header {
-  background-color: #111;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -18,33 +26,42 @@ nav ul {
   gap: 2rem;
   padding: 0;
 }
+
 nav ul li a {
   color: #00ff88;
   text-decoration: none;
   font-weight: bold;
 }
+
 .glow-title-large {
   font-size: 3rem;
   font-weight: 900;
-  color: #00ff88;
-  text-shadow: 0 0 10px #00ff88;
+  background: linear-gradient(to right, #00ff88, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
 }
+
 table {
   width: 90%;
   margin: 1rem auto;
   border-collapse: collapse;
 }
+
 th, td {
   padding: 10px;
   border: 1px solid #333;
 }
+
 th {
   background-color: #222;
   color: #00ff88;
 }
+
 tr:nth-child(even) {
   background-color: #111;
 }
+
 tr:hover {
   background-color: #222;
 }
