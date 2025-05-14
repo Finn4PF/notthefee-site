@@ -1,1 +1,0 @@
-Upload these files to GitHub repo root. Includes CNAME for custom domain.
