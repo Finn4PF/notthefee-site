@@ -27,26 +27,48 @@ function filterStandings(period) {
   fetch('standings.json')
     .then(response => response.json())
     .then(data => {
-      const filtered = data.filter(d => d.Period === period);
-      const container = document.getElementById('standings-table-container');
-      const table = document.createElement('table');
-      table.innerHTML = '<tr><th>Metric</th><th>Role Type</th><th>Rank</th><th>Name</th><th>Total</th></tr>';
-      filtered.forEach(item => {
-        table.innerHTML += `
+      const closers = data.filter(d => d.Period === period && d["Role Type"] === "Top Closers");
+      const pullers = data.filter(d => d.Period === period && d["Role Type"] === "Top Package Pullers");
+
+      const closersTable = document.createElement('table');
+      closersTable.innerHTML = '<tr><th>Metric</th><th>Rank</th><th>Name</th><th>Total</th></tr>';
+      closers.forEach(row => {
+        closersTable.innerHTML += `
           <tr>
-            <td>${item.Metric}</td>
-            <td>${item["Role Type"]}</td>
-            <td>${item.Rank}</td>
-            <td>${item.Name}</td>
-            <td>${typeof item.Total === 'number' ? item.Total.toLocaleString() : item.Total}</td>
+            <td>${row.Metric}</td>
+            <td>${row.Rank}</td>
+            <td>${row.Name}</td>
+            <td>${formatTotal(row.Total)}</td>
           </tr>`;
       });
-      container.innerHTML = '';
-      container.appendChild(table);
+
+      const pullersTable = document.createElement('table');
+      pullersTable.innerHTML = '<tr><th>Metric</th><th>Rank</th><th>Name</th><th>Total</th></tr>';
+      pullers.forEach(row => {
+        pullersTable.innerHTML += `
+          <tr>
+            <td>${row.Metric}</td>
+            <td>${row.Rank}</td>
+            <td>${row.Name}</td>
+            <td>${formatTotal(row.Total)}</td>
+          </tr>`;
+      });
+
+      document.getElementById('closers-table-container').innerHTML = '';
+      document.getElementById('pullers-table-container').innerHTML = '';
+      document.getElementById('closers-table-container').appendChild(closersTable);
+      document.getElementById('pullers-table-container').appendChild(pullersTable);
     });
+}
+
+function formatTotal(value) {
+  if (typeof value === "number") {
+    return value >= 1000 ? "$" + value.toLocaleString() : value.toLocaleString();
+  }
+  return value;
 }
 
 window.onload = function () {
   loadTopDeals();
-  filterStandings('Year-To-Date'); // Default view for standings
+  filterStandings('Year-To-Date');
 };

@@ -38,7 +38,16 @@
       <button onclick="filterStandings('Q3 (Jul–Sep)')">Q3</button>
       <button onclick="filterStandings('Q4 (Oct–Dec)')">Q4</button>
     </div>
-    <div id="standings-table-container">Loading standings...</div>
+    <div class="standings-columns">
+      <div class="standings-column" id="closers-container">
+        <h3>Top Closers</h3>
+        <div id="closers-table-container">Loading closers...</div>
+      </div>
+      <div class="standings-column" id="pullers-container">
+        <h3>Top Package Pullers</h3>
+        <div id="pullers-table-container">Loading package pullers...</div>
+      </div>
+    </div>
   </section>
 
   <footer>
