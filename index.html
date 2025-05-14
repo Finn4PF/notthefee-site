@@ -1,59 +1,43 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>4Pillar Funding</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1 class="glow-title-large">4Pillar Funding</h1>
+    <h1>4Pillar Funding</h1>
     <nav>
       <ul>
+        <li><a href="#recruiting">Recruiting</a></li>
         <li><a href="#calendar">Calendar</a></li>
-        <li><a href="#deal-tracking">Top Deals</a></li>
-        <li><a href="#standings">Standings</a></li>
+        <li><a href="#partnerships">Partnerships</a></li>
+        <li><a href="#deal-tracking">Deal Tracking</a></li>
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#helpbook">Helpbook</a></li>
+        <li><a href="#get-started" class="cta">Get Started</a></li>
       </ul>
     </nav>
   </header>
-
+  <section id="hero">
+    <img src="assets/inc5000.png" alt="Inc. 5000 Badge" />
+    <h2>Welcome to the Internal Portal</h2>
+    <p>Built for the 4 Pillar Funding Team</p>
+    <a href="#get-started" class="button">Explore Features</a>
+    <a href="#calendar" class="button">View Calendar</a>
+  </section>
+  <section id="recruiting"><h2>Recruiting</h2></section>
   <section id="calendar">
     <h2>Company Calendar</h2>
-    <iframe src="https://calendar.google.com/calendar/embed?src=c_4b74f64809807d84c9c29fb4847c7fb2e3b98c3301a44f13f980ec67016e029e%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?src=c_4b74f64809807d84c9c29fb4847c7fb2e3b98c3301a44f13f980ec67016e029e%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   </section>
-
-  <section id="deal-tracking">
-    <h2>Top Deals</h2>
-    <div id="deal-table-container">Loading top deals...</div>
-  </section>
-
-  <section id="standings">
-    <h2>Team Standings</h2>
-    <div id="standings-filters">
-      <button onclick="filterStandings('Year-To-Date')">Year-To-Date</button>
-      <button onclick="filterStandings('This Month')">This Month</button>
-      <button onclick="filterStandings('Q1 (Jan–Mar)')">Q1</button>
-      <button onclick="filterStandings('Q2 (Apr–Jun)')">Q2</button>
-      <button onclick="filterStandings('Q3 (Jul–Sep)')">Q3</button>
-      <button onclick="filterStandings('Q4 (Oct–Dec)')">Q4</button>
-    </div>
-    <div class="standings-columns">
-      <div class="standings-column" id="closers-container">
-        <h3>Top Closers</h3>
-        <div id="closers-table-container">Loading closers...</div>
-      </div>
-      <div class="standings-column" id="pullers-container">
-        <h3>Top Package Pullers</h3>
-        <div id="pullers-table-container">Loading package pullers...</div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 4Pillar Funding. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <section id="partnerships"><h2>Partnerships</h2></section>
+  <section id="deal-tracking"><h2>Deal Tracking</h2></section>
+  <section id="teams"><h2>Teams</h2></section>
+  <section id="helpbook"><h2>Helpbook</h2></section>
+  <section id="get-started"><h2>Get Started</h2></section>
+  <footer><p>&copy; 2025 4Pillar Funding. All rights reserved.</p></footer>
 </body>
 </html>
