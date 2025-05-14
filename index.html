@@ -25,7 +25,17 @@
 
   <section id="deal-tracking">
     <h2>Top Deals</h2>
-    <div id="deal-table-container">Loading top deals...</div>
+    <div id="top-deals-tabs">
+      <button onclick="loadTopDealsTab('Leaderboard')">Leaderboard</button>
+      <button onclick="loadTopDealsTab('Contracts In')">Contracts In</button>
+      <button onclick="loadTopDealsTab('Contracts Out')">Contracts Out</button>
+      <button onclick="loadTopDealsTab('Pitched')">Pitched</button>
+      <button onclick="loadTopDealsTab('Prepitch')">Prepitch</button>
+      <button onclick="loadTopDealsTab('Discovery Call')">Discovery Call</button>
+      <button onclick="loadTopDealsTab('OnBoarding')">OnBoarding</button>
+      <button onclick="loadTopDealsTab('Sewing Club')">Sewing Club</button>
+    </div>
+    <div id="deal-table-container">Loading...</div>
   </section>
 
   <section id="standings">
