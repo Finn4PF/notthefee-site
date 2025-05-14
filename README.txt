@@ -1,1 +1,1 @@
-Upload files to GitHub Pages to deploy.
+Upload these files to GitHub repo root. Includes CNAME for custom domain.
