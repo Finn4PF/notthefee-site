@@ -1,46 +1,45 @@
-
-function loadTopDealsTab(tabName) {
-  fetch('deals_live.json')
-    .then(response => response.json())
-    .then(data => {
-      const container = document.getElementById('deal-table-container');
-      container.innerHTML = "";
-
-      if (tabName === "Leaderboard") {
-        const leaderboard = data.filter(row => row.Tab === "Leaderboard");
-        const leaderboardTable = document.createElement("table");
-        leaderboardTable.innerHTML = "<tr><th>Rank</th><th>Package Puller</th><th>Active Deals</th></tr>";
-        leaderboard.forEach((row, index) => {
-          leaderboardTable.innerHTML += `
-            <tr>
-              <td>${index + 1}</td>
-              <td>${row["Package Puller"]}</td>
-              <td>${row["Last Stage Change Date"]}</td>
-            </tr>`;
-        });
-        container.appendChild(leaderboardTable);
-      } else {
-        const filtered = data.filter(row => row.Tab === tabName);
-        const table = document.createElement("table");
-        table.innerHTML = "<tr><th>Deal Name</th><th>Value</th><th>Stage</th><th>Funding Company</th><th>Owner</th><th>Package Puller</th><th>Last Updated</th></tr>";
-        filtered.forEach(row => {
-          table.innerHTML += `
-            <tr>
-              <td>${row["Deal Name"]}</td>
-              <td>$${Number(row["Value"] || 0).toLocaleString()}</td>
-              <td>${row["Pipeline Stage"]}</td>
-              <td>${row["Funding Company"]}</td>
-              <td>${row["Owner"]}</td>
-              <td>${row["Package Puller"]}</td>
-              <td>${new Date(row["Last Stage Change Date"]).toLocaleDateString()}</td>
-            </tr>`;
-        });
-        container.appendChild(table);
-      }
+fetch('simulated_zendesk_deals.json')
+  .then(response => response.json())
+  .then(data => {
+    const priority = {
+      "Contract In": 1,
+      "Contracts Out": 2,
+      "Pitched": 3,
+      "Prepitch": 4,
+      "Discovery Call": 5,
+      "Onboarding": 6
+    };
+    const sorted = data.sort((a, b) => {
+      const stageA = priority[a.pipeline_stage] || 999;
+      const stageB = priority[b.pipeline_stage] || 999;
+      return stageA - stageB || b.value - a.value;
     });
-}
 
-window.onload = function () {
-  loadTopDealsTab("Leaderboard");
-  filterStandings("Year-To-Date");
-};
+    const table = document.createElement('table');
+    table.className = 'deal-table';
+    const headers = ['Deal Name', 'Value', 'Funding Company', 'Pipeline Stage', 'Ownership', 'Package Puller', 'Last Stage Change'];
+    const thead = table.createTHead();
+    const headerRow = thead.insertRow();
+    headers.forEach(h => {
+      const th = document.createElement('th');
+      th.innerText = h;
+      headerRow.appendChild(th);
+    });
+
+    const tbody = table.createTBody();
+    sorted.forEach(deal => {
+      const row = tbody.insertRow();
+      row.innerHTML = `
+        <td>${deal.deal_name}</td>
+        <td>$${deal.value.toLocaleString()}</td>
+        <td>${deal.funding_company}</td>
+        <td>${deal.pipeline_stage}</td>
+        <td>${deal.ownership}</td>
+        <td>${deal.package_puller}</td>
+        <td>${new Date(deal.last_stage_change).toLocaleDateString()}</td>
+      `;
+    });
+
+    document.getElementById('deal-table-container').innerHTML = '';
+    document.getElementById('deal-table-container').appendChild(table);
+  });
