@@ -37,12 +37,12 @@ function filterStandings(period) {
     });
 }
 
-function loadMilestoneClubs() {
+function filterMilestones(typeKey) {
   fetch('milestone_data.json')
     .then(response => response.json())
     .then(data => {
-      const closers = data.filter(d => d.Role === "Closer");
-      const pullers = data.filter(d => d.Role === "Sales Rep");
+      const closers = data.filter(d => d.Role === "Closer" && d[typeKey] !== "None");
+      const pullers = data.filter(d => d.Role === "Sales Rep" && d[typeKey] !== "None");
 
       const createTable = (group) => {
         const table = document.createElement('table');
@@ -52,16 +52,18 @@ function loadMilestoneClubs() {
             <tr>
               <td>${person.Employee}</td>
               <td>${person.Total_Deals}</td>
-              <td>${person["Deals Club"]}</td>
+              <td>${person.DealsClub}</td>
               <td>$${Number(person.Total_Value).toLocaleString()}</td>
-              <td>${person["Funding Club"]}</td>
+              <td>${person.FundingClub}</td>
               <td>$${Number(person.Total_Commission).toLocaleString()}</td>
-              <td>${person["Revenue Club"]}</td>
+              <td>${person.RevenueClub}</td>
             </tr>`;
         });
         return table;
       };
 
+      document.getElementById('closer-club-table').innerHTML = '';
+      document.getElementById('puller-club-table').innerHTML = '';
       document.getElementById('closer-club-table').appendChild(createTable(closers));
       document.getElementById('puller-club-table').appendChild(createTable(pullers));
     });
@@ -76,5 +78,5 @@ function formatTotal(value) {
 
 window.onload = function () {
   filterStandings('Year-To-Date');
-  loadMilestoneClubs();
+  filterMilestones('DealsClub'); // default view
 };
