@@ -40,26 +40,6 @@
     "RevenueClub": "None"
   },
   {
-    "Employee": "Alexis Mead",
-    "Total_Deals": 16,
-    "Total_Value": 475940.0,
-    "Total_Commission": 35083.25,
-    "Role": "Closer",
-    "DealsClub": "None",
-    "FundingClub": "None",
-    "RevenueClub": "None"
-  },
-  {
-    "Employee": "Angel Balsamo",
-    "Total_Deals": 4,
-    "Total_Value": 27500.0,
-    "Total_Commission": 2325.0,
-    "Role": "Closer",
-    "DealsClub": "None",
-    "FundingClub": "None",
-    "RevenueClub": "None"
-  },
-  {
     "Employee": "Bella Nelson",
     "Total_Deals": 272,
     "Total_Value": 21985826.0,
@@ -190,16 +170,6 @@
     "RevenueClub": "None"
   },
   {
-    "Employee": "Matthew Forum",
-    "Total_Deals": 48,
-    "Total_Value": 1990301.0,
-    "Total_Commission": 108567.12,
-    "Role": "Closer",
-    "DealsClub": "None",
-    "FundingClub": "None",
-    "RevenueClub": "None"
-  },
-  {
     "Employee": "Michael Wiggin",
     "Total_Deals": 1,
     "Total_Value": 12000.0,
@@ -230,16 +200,6 @@
     "RevenueClub": "None"
   },
   {
-    "Employee": "Nick Powers",
-    "Total_Deals": 312,
-    "Total_Value": 13609528.0,
-    "Total_Commission": 1152147.63,
-    "Role": "Closer",
-    "DealsClub": "Gold",
-    "FundingClub": "None",
-    "RevenueClub": "Silver"
-  },
-  {
     "Employee": "Nolan Isabella",
     "Total_Deals": 399,
     "Total_Value": 30052863.0,
@@ -248,16 +208,6 @@
     "DealsClub": "Gold",
     "FundingClub": "Silver",
     "RevenueClub": "Gold"
-  },
-  {
-    "Employee": "Rob Catanzarita",
-    "Total_Deals": 163,
-    "Total_Value": 6113441.0,
-    "Total_Commission": 441571.47,
-    "Role": "Closer",
-    "DealsClub": "Bronze",
-    "FundingClub": "None",
-    "RevenueClub": "None"
   },
   {
     "Employee": "Ryan Hurley",
@@ -400,16 +350,6 @@
     "RevenueClub": "None"
   },
   {
-    "Employee": "Alexis Mead",
-    "Total_Deals": 35,
-    "Total_Value": 1418940.0,
-    "Total_Commission": 97443.25,
-    "Role": "Sales Rep",
-    "DealsClub": "None",
-    "FundingClub": "Bronze",
-    "RevenueClub": "None"
-  },
-  {
     "Employee": "Andrew Molnar",
     "Total_Deals": 18,
     "Total_Value": 473000.0,
@@ -417,16 +357,6 @@
     "Role": "Sales Rep",
     "DealsClub": "None",
     "FundingClub": "None",
-    "RevenueClub": "None"
-  },
-  {
-    "Employee": "Angel Balsamo",
-    "Total_Deals": 37,
-    "Total_Value": 1074710.0,
-    "Total_Commission": 83897.25,
-    "Role": "Sales Rep",
-    "DealsClub": "None",
-    "FundingClub": "Bronze",
     "RevenueClub": "None"
   },
   {
@@ -650,16 +580,6 @@
     "RevenueClub": "None"
   },
   {
-    "Employee": "Matthew Forum",
-    "Total_Deals": 198,
-    "Total_Value": 12524034.0,
-    "Total_Commission": 816027.12,
-    "Role": "Sales Rep",
-    "DealsClub": "Silver",
-    "FundingClub": "Silver",
-    "RevenueClub": "Silver"
-  },
-  {
     "Employee": "Michael Wiggin",
     "Total_Deals": 1,
     "Total_Value": 12000.0,
@@ -690,16 +610,6 @@
     "RevenueClub": "None"
   },
   {
-    "Employee": "Nick Powers",
-    "Total_Deals": 145,
-    "Total_Value": 5704623.0,
-    "Total_Commission": 489160.63,
-    "Role": "Sales Rep",
-    "DealsClub": "Silver",
-    "FundingClub": "Bronze",
-    "RevenueClub": "Bronze"
-  },
-  {
     "Employee": "Nolan Isabella",
     "Total_Deals": 199,
     "Total_Value": 16205673.0,
@@ -718,16 +628,6 @@
     "DealsClub": "None",
     "FundingClub": "None",
     "RevenueClub": "None"
-  },
-  {
-    "Employee": "Rob Catanzarita",
-    "Total_Deals": 213,
-    "Total_Value": 15240192.0,
-    "Total_Commission": 1022687.84,
-    "Role": "Sales Rep",
-    "DealsClub": "Gold",
-    "FundingClub": "Silver",
-    "RevenueClub": "Gold"
   },
   {
     "Employee": "Ryan Hurley",
