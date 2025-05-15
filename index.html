@@ -11,7 +11,7 @@
     <nav>
       <ul>
         <li><a href="#calendar">Calendar</a></li>
-        <li><a href="#standings">Standings</a></li>
+        <li><a href="#standings">Employee Standings</a></li>
         <li><a href="#milestone-clubs">Milestone Clubs</a></li>
       </ul>
     </nav>
@@ -23,7 +23,7 @@
   </section>
 
   <section id="standings">
-    <h2>Team Standings</h2>
+    <h2>Employee Standings</h2>
     <div id="standings-filters">
       <button onclick="filterStandings('Year-To-Date')">Year-To-Date</button>
       <button onclick="filterStandings('This Month')">This Month</button>
@@ -46,6 +46,11 @@
 
   <section id="milestone-clubs">
     <h2>Milestone Clubs</h2>
+    <div id="milestone-filters">
+      <button onclick="filterMilestones('DealsClub')">Deals Club</button>
+      <button onclick="filterMilestones('FundingClub')">Funding Club</button>
+      <button onclick="filterMilestones('RevenueClub')">Revenue Club</button>
+    </div>
     <div class="standings-columns">
       <div class="standings-column" id="closer-clubs">
         <h3>Closer Clubs</h3>

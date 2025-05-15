@@ -62,6 +62,7 @@ function filterMilestones(typeKey) {
         return table;
       };
 
+      // Clear loading text and insert new tables
       document.getElementById('closer-club-table').innerHTML = '';
       document.getElementById('puller-club-table').innerHTML = '';
       document.getElementById('closer-club-table').appendChild(createTable(closers));
@@ -78,5 +79,5 @@ function formatTotal(value) {
 
 window.onload = function () {
   filterStandings('Year-To-Date');
-  filterMilestones('DealsClub'); // default view
+  filterMilestones('DealsClub');
 };
