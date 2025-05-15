@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +11,8 @@
     <nav>
       <ul>
         <li><a href="#calendar">Calendar</a></li>
-        <li><a href="#deal-tracking">Top Deals</a></li>
         <li><a href="#standings">Standings</a></li>
+        <li><a href="#milestone-clubs">Milestone Clubs</a></li>
       </ul>
     </nav>
   </header>
@@ -21,11 +20,6 @@
   <section id="calendar">
     <h2>Company Calendar</h2>
     <iframe src="https://calendar.google.com/calendar/embed?src=c_4b74f64809807d84c9c29fb4847c7fb2e3b98c3301a44f13f980ec67016e029e%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-  </section>
-
-  <section id="deal-tracking">
-    <h2>Top Deals</h2>
-    <div id="deal-table-container">Loading top deals...</div>
   </section>
 
   <section id="standings">
@@ -46,6 +40,20 @@
       <div class="standings-column" id="pullers-container">
         <h3>Top Package Pullers</h3>
         <div id="pullers-table-container">Loading package pullers...</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="milestone-clubs">
+    <h2>Milestone Clubs</h2>
+    <div class="standings-columns">
+      <div class="standings-column" id="closer-clubs">
+        <h3>Closer Clubs</h3>
+        <div id="closer-club-table">Loading...</div>
+      </div>
+      <div class="standings-column" id="puller-clubs">
+        <h3>Package Puller Clubs</h3>
+        <div id="puller-club-table">Loading...</div>
       </div>
     </div>
   </section>

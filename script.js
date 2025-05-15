@@ -1,28 +1,4 @@
 
-function loadTopDeals() {
-  fetch('deals_live.json')
-    .then(response => response.json())
-    .then(data => {
-      const container = document.getElementById('deal-table-container');
-      const table = document.createElement('table');
-      table.innerHTML = '<tr><th>Deal</th><th>Value</th><th>Stage</th><th>Funding Company</th><th>Owner</th><th>Package Puller</th><th>Last Updated</th></tr>';
-      data.forEach(deal => {
-        table.innerHTML += `
-          <tr>
-            <td>${deal.deal_name}</td>
-            <td>$${deal.value.toLocaleString()}</td>
-            <td>${deal.pipeline_stage}</td>
-            <td>${deal.funding_company}</td>
-            <td>${deal.ownership}</td>
-            <td>${deal.package_puller}</td>
-            <td>${new Date(deal.last_stage_change).toLocaleDateString()}</td>
-          </tr>`;
-      });
-      container.innerHTML = '';
-      container.appendChild(table);
-    });
-}
-
 function filterStandings(period) {
   fetch('standings.json')
     .then(response => response.json())
@@ -61,6 +37,36 @@ function filterStandings(period) {
     });
 }
 
+function loadMilestoneClubs() {
+  fetch('milestone_data.json')
+    .then(response => response.json())
+    .then(data => {
+      const closers = data.filter(d => d.Role === "Closer");
+      const pullers = data.filter(d => d.Role === "Sales Rep");
+
+      const createTable = (group) => {
+        const table = document.createElement('table');
+        table.innerHTML = '<tr><th>Employee</th><th>Total Deals</th><th>Deals Club</th><th>Total Funding</th><th>Funding Club</th><th>Total Revenue</th><th>Revenue Club</th></tr>';
+        group.forEach(person => {
+          table.innerHTML += `
+            <tr>
+              <td>${person.Employee}</td>
+              <td>${person.Total_Deals}</td>
+              <td>${person["Deals Club"]}</td>
+              <td>$${Number(person.Total_Value).toLocaleString()}</td>
+              <td>${person["Funding Club"]}</td>
+              <td>$${Number(person.Total_Commission).toLocaleString()}</td>
+              <td>${person["Revenue Club"]}</td>
+            </tr>`;
+        });
+        return table;
+      };
+
+      document.getElementById('closer-club-table').appendChild(createTable(closers));
+      document.getElementById('puller-club-table').appendChild(createTable(pullers));
+    });
+}
+
 function formatTotal(value) {
   if (typeof value === "number") {
     return value >= 1000 ? "$" + value.toLocaleString() : value.toLocaleString();
@@ -69,6 +75,6 @@ function formatTotal(value) {
 }
 
 window.onload = function () {
-  loadTopDeals();
   filterStandings('Year-To-Date');
+  loadMilestoneClubs();
 };
