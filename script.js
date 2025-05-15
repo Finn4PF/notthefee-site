@@ -6,12 +6,19 @@ function filterStandings(period) {
       const closers = data.filter(d => d.Period === period && d["Role Type"] === "Top Closers");
       const pullers = data.filter(d => d.Period === period && d["Role Type"] === "Top Package Pullers");
 
+      const renameMetric = (label) => {
+        if (label === "Deals") return "Deals Funded";
+        if (label === "Value") return "Funding Total";
+        if (label === "Commission") return "Total Revenue";
+        return label;
+      };
+
       const closersTable = document.createElement('table');
       closersTable.innerHTML = '<tr><th>Metric</th><th>Rank</th><th>Name</th><th>Total</th></tr>';
       closers.forEach(row => {
         closersTable.innerHTML += `
           <tr>
-            <td>${row.Metric}</td>
+            <td>${renameMetric(row.Metric)}</td>
             <td>${row.Rank}</td>
             <td>${row.Name}</td>
             <td>${formatTotal(row.Total)}</td>
@@ -23,7 +30,7 @@ function filterStandings(period) {
       pullers.forEach(row => {
         pullersTable.innerHTML += `
           <tr>
-            <td>${row.Metric}</td>
+            <td>${renameMetric(row.Metric)}</td>
             <td>${row.Rank}</td>
             <td>${row.Name}</td>
             <td>${formatTotal(row.Total)}</td>
@@ -62,7 +69,6 @@ function filterMilestones(typeKey) {
         return table;
       };
 
-      // Clear loading text and insert new tables
       document.getElementById('closer-club-table').innerHTML = '';
       document.getElementById('puller-club-table').innerHTML = '';
       document.getElementById('closer-club-table').appendChild(createTable(closers));
