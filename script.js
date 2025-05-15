@@ -142,3 +142,59 @@ window.onload = function () {
   if (originalLoad) originalLoad();
   loadMilestoneClubTabs();
 };
+
+let milestoneClubData = [];
+let currentClub = "Deals";
+let currentTier = "Gold";
+
+function filterClub(club) {
+  currentClub = club;
+  renderMilestoneTables();
+}
+function filterTier(tier) {
+  currentTier = tier;
+  renderMilestoneTables();
+}
+
+function renderMilestoneTables() {
+  const filtered = milestoneClubData.filter(
+    d => d["Club Type"] === currentClub && d["Tier"] === currentTier
+  );
+
+  const closers = filtered.filter(d => d.Role === "Closer");
+  const pullers = filtered.filter(d => d.Role === "Sales Rep");
+
+  const makeTable = (rows) => {
+    const table = document.createElement('table');
+    table.innerHTML = '<tr><th>🏆 Name</th><th>Deals</th><th>Funding</th><th>Revenue</th></tr>';
+    rows.forEach(row => {
+      table.innerHTML += `
+        <tr>
+          <td>${row.Employee}</td>
+          <td>${row.Total_Deals}</td>
+          <td>$${Number(row.Total_Value).toLocaleString()}</td>
+          <td>$${Number(row.Total_Commission).toLocaleString()}</td>
+        </tr>`;
+    });
+    return table;
+  };
+
+  document.getElementById('milestone-closers-table').innerHTML = '';
+  document.getElementById('milestone-closers-table').appendChild(makeTable(closers));
+  document.getElementById('milestone-pullers-table').innerHTML = '';
+  document.getElementById('milestone-pullers-table').appendChild(makeTable(pullers));
+}
+
+function loadMilestoneClubTabs() {
+  fetch('milestone_data.json')
+    .then(res => res.json())
+    .then(data => {
+      milestoneClubData = data;
+      renderMilestoneTables();
+    });
+}
+
+// Ensure only one window.onload
+window.addEventListener('load', function () {
+  loadMilestoneClubTabs();
+});
