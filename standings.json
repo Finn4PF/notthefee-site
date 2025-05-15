@@ -1,770 +1,770 @@
 [
   {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 79
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 44
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Bella Nelson",
-    "Total": 35
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 7261445
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 6051200
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Bella Nelson",
-    "Total": 4289500
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 485065
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 385969
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Bella Nelson",
-    "Total": 283143
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 30
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Steve Pastore",
-    "Total": 20
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Wade Miller",
-    "Total": 19
-  },
-  {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Adam Morton",
-    "Total": 18
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":79
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":44
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Bella Nelson",
+    "Total":35
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":7261445
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":6051200
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Bella Nelson",
+    "Total":4289500
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":485065
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":385969
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Bella Nelson",
+    "Total":283143
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":30
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Steve Pastore",
+    "Total":20
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Wade Miller",
+    "Total":19
+  },
+  {
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Adam Morton",
+    "Total":18
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Matt Smethurst",
-    "Total": 17
+    "Period":"Year-To-Date",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Matt Smethurst",
+    "Total":17
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 3861500
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":3861500
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Matt Smethurst",
-    "Total": 2399249
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Matt Smethurst",
+    "Total":2399249
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Zach Forbes",
-    "Total": 2201750
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Zach Forbes",
+    "Total":2201750
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Adam Morton",
-    "Total": 1974100
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Adam Morton",
+    "Total":1974100
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Steve Pastore",
-    "Total": 1939350
+    "Period":"Year-To-Date",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Steve Pastore",
+    "Total":1939350
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 255803
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":255803
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Adam Morton",
-    "Total": 175479
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Adam Morton",
+    "Total":175479
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Zach Forbes",
-    "Total": 174797
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Zach Forbes",
+    "Total":174797
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Steve Pastore",
-    "Total": 140962
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Steve Pastore",
+    "Total":140962
   },
   {
-    "Period": "Year-To-Date",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Matt Smethurst",
-    "Total": 139647
+    "Period":"Year-To-Date",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Matt Smethurst",
+    "Total":139647
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 49
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":49
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 26
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":26
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Bella Nelson",
-    "Total": 23
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Bella Nelson",
+    "Total":23
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 4532745
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":4532745
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Bella Nelson",
-    "Total": 3403500
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Bella Nelson",
+    "Total":3403500
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Alex Hoppe",
-    "Total": 3334550
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Alex Hoppe",
+    "Total":3334550
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 308509
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":308509
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 229195
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":229195
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Bella Nelson",
-    "Total": 212530
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Bella Nelson",
+    "Total":212530
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 18
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":18
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Matthew Forum",
-    "Total": 17
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Matthew Forum",
+    "Total":17
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Luke Pascarella",
-    "Total": 14
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Luke Pascarella",
+    "Total":14
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Adam Morton",
-    "Total": 13
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Adam Morton",
+    "Total":13
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Steve Pastore",
-    "Total": 12
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Steve Pastore",
+    "Total":12
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 2975500
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":2975500
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Matt Smethurst",
-    "Total": 1698000
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Matt Smethurst",
+    "Total":1698000
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Adam Morton",
-    "Total": 1519100
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Adam Morton",
+    "Total":1519100
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Steve Pastore",
-    "Total": 1315000
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Steve Pastore",
+    "Total":1315000
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Kyle Rivers",
-    "Total": 1308610
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Kyle Rivers",
+    "Total":1308610
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 185190
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":185190
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Adam Morton",
-    "Total": 139005
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Adam Morton",
+    "Total":139005
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Steve Pastore",
-    "Total": 108400
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Steve Pastore",
+    "Total":108400
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Matt Smethurst",
-    "Total": 91110
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Matt Smethurst",
+    "Total":91110
   },
   {
-    "Period": "Q1 (Jan\u2013Mar)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Zach Forbes",
-    "Total": 90277
+    "Period":"Q1 (Jan\u2013Mar)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Zach Forbes",
+    "Total":90277
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 30
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":30
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Luke Pascarella",
-    "Total": 18
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Luke Pascarella",
+    "Total":18
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Alex Hoppe",
-    "Total": 18
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Alex Hoppe",
+    "Total":18
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 2728700
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":2728700
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 2716650
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":2716650
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Adam Morton",
-    "Total": 1182700
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Adam Morton",
+    "Total":1182700
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 176556
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":176556
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 156774
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":156774
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Tom Catanzarita",
-    "Total": 94603
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Tom Catanzarita",
+    "Total":94603
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bella Nelson",
-    "Total": 12
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bella Nelson",
+    "Total":12
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Sean Hurley",
-    "Total": 12
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Sean Hurley",
+    "Total":12
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Bryan Johns",
-    "Total": 12
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Bryan Johns",
+    "Total":12
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Glen Beebe",
-    "Total": 11
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Glen Beebe",
+    "Total":11
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Matt Smethurst",
-    "Total": 8
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Matt Smethurst",
+    "Total":8
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bryan Johns",
-    "Total": 1513000
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bryan Johns",
+    "Total":1513000
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Zach Forbes",
-    "Total": 1071000
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Zach Forbes",
+    "Total":1071000
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Tom Catanzarita",
-    "Total": 920275
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Tom Catanzarita",
+    "Total":920275
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Bella Nelson",
-    "Total": 886000
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Bella Nelson",
+    "Total":886000
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Wade Miller",
-    "Total": 751800
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Wade Miller",
+    "Total":751800
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bryan Johns",
-    "Total": 107076
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bryan Johns",
+    "Total":107076
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Tom Catanzarita",
-    "Total": 94603
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Tom Catanzarita",
+    "Total":94603
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Zach Forbes",
-    "Total": 84520
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Zach Forbes",
+    "Total":84520
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Bella Nelson",
-    "Total": 70613
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Bella Nelson",
+    "Total":70613
   },
   {
-    "Period": "Q2 (Apr\u2013Jun)",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Wade Miller",
-    "Total": 57946
+    "Period":"Q2 (Apr\u2013Jun)",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Wade Miller",
+    "Total":57946
   },
   {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 9
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":9
   },
   {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Luke Pascarella",
-    "Total": 7
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Luke Pascarella",
+    "Total":7
   },
   {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Bella Nelson",
-    "Total": 5
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Bella Nelson",
+    "Total":5
   },
   {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 1414000
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":1414000
   },
   {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 1081000
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":1081000
   },
   {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Adam Morton",
-    "Total": 622700
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Adam Morton",
+    "Total":622700
   },
   {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 1,
-    "Name": "Nolan Isabella",
-    "Total": 109082
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":1,
+    "Name":"Nolan Isabella",
+    "Total":109082
   },
   {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 2,
-    "Name": "Alex Hoppe",
-    "Total": 91120
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":2,
+    "Name":"Alex Hoppe",
+    "Total":91120
   },
   {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Closers",
-    "Rank": 3,
-    "Name": "Adam Morton",
-    "Total": 38550
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Closers",
+    "Rank":3,
+    "Name":"Adam Morton",
+    "Total":38550
   },
   {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Glen Beebe",
-    "Total": 6
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Glen Beebe",
+    "Total":6
   },
   {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Bella Nelson",
-    "Total": 5
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Bella Nelson",
+    "Total":5
   },
   {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Bryan Johns",
-    "Total": 5
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Sean Hurley",
-    "Total": 3
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Deals",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Zach Forbes",
-    "Total": 3
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Bryan Johns",
-    "Total": 1059000
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Zach Forbes",
-    "Total": 946000
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Matt Smethurst",
-    "Total": 550833
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Bella Nelson",
-    "Total": 263000
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Value",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Glen Beebe",
-    "Total": 178700
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 1,
-    "Name": "Zach Forbes",
-    "Total": 76720
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 2,
-    "Name": "Bryan Johns",
-    "Total": 75196
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 3,
-    "Name": "Matt Smethurst",
-    "Total": 38525
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 4,
-    "Name": "Bella Nelson",
-    "Total": 20740
-  },
-  {
-    "Period": "This Month",
-    "Metric": "Commission",
-    "Role Type": "Top Package Pullers",
-    "Rank": 5,
-    "Name": "Christina Benenati",
-    "Total": 16474
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Bryan Johns",
+    "Total":5
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Sean Hurley",
+    "Total":3
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Deals",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Zach Forbes",
+    "Total":3
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Bryan Johns",
+    "Total":1059000
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Zach Forbes",
+    "Total":946000
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Matt Smethurst",
+    "Total":550833
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Bella Nelson",
+    "Total":263000
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Value",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Glen Beebe",
+    "Total":178700
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":1,
+    "Name":"Zach Forbes",
+    "Total":76720
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":2,
+    "Name":"Bryan Johns",
+    "Total":75196
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":3,
+    "Name":"Matt Smethurst",
+    "Total":38525
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":4,
+    "Name":"Bella Nelson",
+    "Total":20740
+  },
+  {
+    "Period":"This Month",
+    "Metric":"Commission",
+    "Role Type":"Top Package Pullers",
+    "Rank":5,
+    "Name":"Christina Benenati",
+    "Total":16474
   }
 ]
