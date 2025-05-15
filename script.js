@@ -1,117 +1,144 @@
+fetch('simulated_zendesk_deals.json')
+  .then(response => response.json())
+  .then(data => {
+    const priority = {
+      "Contract In": 1,
+      "Contracts Out": 2,
+      "Pitched": 3,
+      "Prepitch": 4,
+      "Discovery Call": 5,
+      "Onboarding": 6
+    };
+    const sorted = data.sort((a, b) => {
+      const stageA = priority[a.pipeline_stage] || 999;
+      const stageB = priority[b.pipeline_stage] || 999;
+      return stageA - stageB || b.value - a.value;
+    });
 
-function loadTopDeals() {
-  fetch('deals_live.json')
+    const table = document.createElement('table');
+    table.className = 'deal-table';
+    const headers = ['Deal Name', 'Value', 'Funding Company', 'Pipeline Stage', 'Ownership', 'Package Puller', 'Last Stage Change'];
+    const thead = table.createTHead();
+    const headerRow = thead.insertRow();
+    headers.forEach(h => {
+      const th = document.createElement('th');
+      th.innerText = h;
+      headerRow.appendChild(th);
+    });
+
+    const tbody = table.createTBody();
+    sorted.forEach(deal => {
+      const row = tbody.insertRow();
+      row.innerHTML = `
+        <td>${deal.deal_name}</td>
+        <td>$${deal.value.toLocaleString()}</td>
+        <td>${deal.funding_company}</td>
+        <td>${deal.pipeline_stage}</td>
+        <td>${deal.ownership}</td>
+        <td>${deal.package_puller}</td>
+        <td>${new Date(deal.last_stage_change).toLocaleDateString()}</td>
+      `;
+    });
+
+    document.getElementById('deal-table-container').innerHTML = '';
+    document.getElementById('deal-table-container').appendChild(table);
+  });
+function switchMilestoneTab(role) {
+  fetch('milestone_data.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('deal-table-container');
+      const filtered = data.filter(d => d.Role === role);
+
       const table = document.createElement('table');
-      table.innerHTML = '<tr><th>Deal</th><th>Value</th><th>Stage</th><th>Funding Company</th><th>Owner</th><th>Package Puller</th><th>Last Updated</th></tr>';
-      data.forEach(deal => {
-        table.innerHTML += `
-          <tr>
-            <td>${deal.deal_name}</td>
-            <td>$${deal.value.toLocaleString()}</td>
-            <td>${deal.pipeline_stage}</td>
-            <td>${deal.funding_company}</td>
-            <td>${deal.ownership}</td>
-            <td>${deal.package_puller}</td>
-            <td>${new Date(deal.last_stage_change).toLocaleDateString()}</td>
-          </tr>`;
+      table.className = 'deal-table';
+
+      const headers = ['Employee', 'Total_Deals', 'Deals Club', 'Total_Value', 'Funding Club', 'Total_Commission', 'Revenue Club'];
+      const thead = table.createTHead();
+      const headerRow = thead.insertRow();
+      headers.forEach(h => {
+        const th = document.createElement('th');
+        th.innerText = h.replace(/_/g, ' ');
+        headerRow.appendChild(th);
       });
+
+      const tbody = table.createTBody();
+      filtered.forEach(d => {
+        const row = tbody.insertRow();
+        row.innerHTML = `
+          <td>${d.Employee}</td>
+          <td>${d.Total_Deals}</td>
+          <td>${d["Deals Club"]}</td>
+          <td>$${Number(d.Total_Value).toLocaleString()}</td>
+          <td>${d["Funding Club"]}</td>
+          <td>$${Number(d.Total_Commission).toLocaleString()}</td>
+          <td>${d["Revenue Club"]}</td>
+        `;
+      });
+
+      const container = document.getElementById('milestone-tables');
       container.innerHTML = '';
       container.appendChild(table);
     });
 }
 
-function filterStandings(period) {
-  fetch('standings.json')
-    .then(response => response.json())
-    .then(data => {
-      const closers = data.filter(d => d.Period === period && d["Role Type"] === "Top Closers");
-      const pullers = data.filter(d => d.Period === period && d["Role Type"] === "Top Package Pullers");
 
-      const closersTable = document.createElement('table');
-      closersTable.innerHTML = '<tr><th>Metric</th><th>Rank</th><th>Name</th><th>Total</th></tr>';
-      closers.forEach(row => {
-        closersTable.innerHTML += `
-          <tr>
-            <td>${row.Metric}</td>
-            <td>${row.Rank}</td>
-            <td>${row.Name}</td>
-            <td>${formatTotal(row.Total)}</td>
-          </tr>`;
-      });
+let milestoneClubData = [];
+let currentClub = "Deals";
+let currentTier = "Bronze";
 
-      const pullersTable = document.createElement('table');
-      pullersTable.innerHTML = '<tr><th>Metric</th><th>Rank</th><th>Name</th><th>Total</th></tr>';
-      pullers.forEach(row => {
-        pullersTable.innerHTML += `
-          <tr>
-            <td>${row.Metric}</td>
-            <td>${row.Rank}</td>
-            <td>${row.Name}</td>
-            <td>${formatTotal(row.Total)}</td>
-          </tr>`;
-      });
-
-      document.getElementById('closers-table-container').innerHTML = '';
-      document.getElementById('pullers-table-container').innerHTML = '';
-      document.getElementById('closers-table-container').appendChild(closersTable);
-      document.getElementById('pullers-table-container').appendChild(pullersTable);
-    });
-}
-
-function formatTotal(value) {
-  if (typeof value === "number") {
-    return value >= 1000 ? "$" + value.toLocaleString() : value.toLocaleString();
-  }
-  return value;
-}
-
-window.onload = function () {
-  loadTopDeals();
-  filterStandings('Year-To-Date');
-};
-
-
-function loadMilestoneClubs() {
+function loadMilestoneClubTabs() {
   fetch('milestone_data.json')
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
-      const closers = data.filter(d => d.Role === "Closer");
-      const pullers = data.filter(d => d.Role === "Sales Rep");
-
-      const createTable = (group) => {
-        const table = document.createElement('table');
-        table.innerHTML = '<tr><th>Employee</th><th>Total Deals</th><th>Deals Club</th><th>Total Funding</th><th>Funding Club</th><th>Total Revenue</th><th>Revenue Club</th></tr>';
-        group.forEach(person => {
-          table.innerHTML += `
-            <tr>
-              <td>${person.Employee}</td>
-              <td>${person.Total_Deals}</td>
-              <td>${person["Deals Club"]}</td>
-              <td>$${Number(person.Total_Value).toLocaleString()}</td>
-              <td>${person["Funding Club"]}</td>
-              <td>$${Number(person.Total_Commission).toLocaleString()}</td>
-              <td>${person["Revenue Club"]}</td>
-            </tr>`;
-        });
-        return table;
-      };
-
-      const closerTable = createTable(closers);
-      const pullerTable = createTable(pullers);
-
-      document.getElementById('closer-club-table').innerHTML = '';
-      document.getElementById('closer-club-table').appendChild(closerTable);
-      document.getElementById('puller-club-table').innerHTML = '';
-      document.getElementById('puller-club-table').appendChild(pullerTable);
+      milestoneClubData = data;
+      renderMilestoneTables();
     });
 }
 
-// Update window.onload to include milestone loading
+function filterClub(club) {
+  currentClub = club;
+  renderMilestoneTables();
+}
+function filterTier(tier) {
+  currentTier = tier;
+  renderMilestoneTables();
+}
+
+function renderMilestoneTables() {
+  const filtered = milestoneClubData.filter(
+    d => d["Club Type"] === currentClub && d["Tier"] === currentTier
+  );
+
+  const closers = filtered.filter(d => d.Role === "Closer");
+  const pullers = filtered.filter(d => d.Role === "Sales Rep");
+
+  const makeTable = (rows) => {
+    const table = document.createElement('table');
+    table.innerHTML = '<tr><th>Name</th><th>Deals</th><th>Funding</th><th>Revenue</th></tr>';
+    rows.forEach(row => {
+      table.innerHTML += `
+        <tr>
+          <td>${row.Employee}</td>
+          <td>${row.Total_Deals}</td>
+          <td>$${Number(row.Total_Value).toLocaleString()}</td>
+          <td>$${Number(row.Total_Commission).toLocaleString()}</td>
+        </tr>`;
+    });
+    return table;
+  };
+
+  const closersTable = makeTable(closers);
+  const pullersTable = makeTable(pullers);
+
+  document.getElementById('milestone-closers-table').innerHTML = '';
+  document.getElementById('milestone-pullers-table').innerHTML = '';
+  document.getElementById('milestone-closers-table').appendChild(closersTable);
+  document.getElementById('milestone-pullers-table').appendChild(pullersTable);
+}
+
+// Run on page load
 const originalLoad = window.onload;
 window.onload = function () {
   if (originalLoad) originalLoad();
-  loadMilestoneClubs();
+  loadMilestoneClubTabs();
 };
