@@ -29,7 +29,7 @@
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$7,306,445"
+    "Total": 7306445
   },
   {
     "Period": "Year-To-Date",
@@ -37,7 +37,7 @@
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$6,091,670"
+    "Total": 6091670
   },
   {
     "Period": "Year-To-Date",
@@ -45,7 +45,7 @@
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Bella Nelson",
-    "Total": "$4,289,500"
+    "Total": 4289500
   },
   {
     "Period": "Year-To-Date",
@@ -53,7 +53,7 @@
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$493,815"
+    "Total": 493815
   },
   {
     "Period": "Year-To-Date",
@@ -61,7 +61,7 @@
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$390,825"
+    "Total": 390825
   },
   {
     "Period": "Year-To-Date",
@@ -69,7 +69,7 @@
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Bella Nelson",
-    "Total": "$283,143"
+    "Total": 283143
   },
   {
     "Period": "Year-To-Date",
@@ -117,7 +117,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bella Nelson",
-    "Total": "$3,861,500"
+    "Total": 3861500
   },
   {
     "Period": "Year-To-Date",
@@ -125,7 +125,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Matt Smethurst",
-    "Total": "$2,459,249"
+    "Total": 2459249
   },
   {
     "Period": "Year-To-Date",
@@ -133,7 +133,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Zach Forbes",
-    "Total": "$2,201,750"
+    "Total": 2201750
   },
   {
     "Period": "Year-To-Date",
@@ -141,7 +141,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Adam Morton",
-    "Total": "$2,094,100"
+    "Total": 2094100
   },
   {
     "Period": "Year-To-Date",
@@ -149,7 +149,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Steve Pastore",
-    "Total": "$1,979,820"
+    "Total": 1979820
   },
   {
     "Period": "Year-To-Date",
@@ -157,7 +157,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bella Nelson",
-    "Total": "$255,803"
+    "Total": 255803
   },
   {
     "Period": "Year-To-Date",
@@ -165,7 +165,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Adam Morton",
-    "Total": "$181,479"
+    "Total": 181479
   },
   {
     "Period": "Year-To-Date",
@@ -173,7 +173,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Zach Forbes",
-    "Total": "$174,797"
+    "Total": 174797
   },
   {
     "Period": "Year-To-Date",
@@ -181,7 +181,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Steve Pastore",
-    "Total": "$145,818"
+    "Total": 145818
   },
   {
     "Period": "Year-To-Date",
@@ -189,10 +189,10 @@
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Matt Smethurst",
-    "Total": "$144,615"
+    "Total": 144615
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Closers",
     "Rank": 1,
@@ -200,7 +200,7 @@
     "Total": 49
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Closers",
     "Rank": 2,
@@ -208,7 +208,7 @@
     "Total": 26
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Closers",
     "Rank": 3,
@@ -216,55 +216,55 @@
     "Total": 23
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$4,532,745"
+    "Total": 4532745
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Bella Nelson",
-    "Total": "$3,403,500"
+    "Total": 3403500
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Alex Hoppe",
-    "Total": "$3,334,550"
+    "Total": 3334550
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$308,509"
+    "Total": 308509
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$229,195"
+    "Total": 229195
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Bella Nelson",
-    "Total": "$212,530"
+    "Total": 212530
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 1,
@@ -272,7 +272,7 @@
     "Total": 18
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 2,
@@ -280,7 +280,7 @@
     "Total": 17
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 3,
@@ -288,7 +288,7 @@
     "Total": 14
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 4,
@@ -296,7 +296,7 @@
     "Total": 13
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 5,
@@ -304,87 +304,87 @@
     "Total": 12
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bella Nelson",
-    "Total": "$2,975,500"
+    "Total": 2975500
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Matt Smethurst",
-    "Total": "$1,698,000"
+    "Total": 1698000
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Adam Morton",
-    "Total": "$1,519,100"
+    "Total": 1519100
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Steve Pastore",
-    "Total": "$1,315,000"
+    "Total": 1315000
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Kyle Rivers",
-    "Total": "$1,308,610"
+    "Total": 1308610
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bella Nelson",
-    "Total": "$185,190"
+    "Total": 185190
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Adam Morton",
-    "Total": "$139,005"
+    "Total": 139005
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Steve Pastore",
-    "Total": "$108,400"
+    "Total": 108400
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Matt Smethurst",
-    "Total": "$91,110"
+    "Total": 91110
   },
   {
-    "Period": "Q1 (Jan–Mar)",
+    "Period": "Q1 (Jan\u2013Mar)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Zach Forbes",
-    "Total": "$90,277"
+    "Total": 90277
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Closers",
     "Rank": 1,
@@ -392,7 +392,7 @@
     "Total": 32
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Closers",
     "Rank": 2,
@@ -400,7 +400,7 @@
     "Total": 19
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Closers",
     "Rank": 3,
@@ -408,55 +408,55 @@
     "Total": 19
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$2,773,700"
+    "Total": 2773700
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$2,757,120"
+    "Total": 2757120
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Adam Morton",
-    "Total": "$1,302,700"
+    "Total": 1302700
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$185,306"
+    "Total": 185306
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$161,630"
+    "Total": 161630
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Adam Morton",
-    "Total": "$98,274"
+    "Total": 98274
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 1,
@@ -464,7 +464,7 @@
     "Total": 14
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 2,
@@ -472,7 +472,7 @@
     "Total": 13
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 3,
@@ -480,7 +480,7 @@
     "Total": 12
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 4,
@@ -488,7 +488,7 @@
     "Total": 11
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Deals",
     "Role Type": "Top Package Pullers",
     "Rank": 5,
@@ -496,84 +496,84 @@
     "Total": 10
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bryan Johns",
-    "Total": "$1,553,000"
+    "Total": 1553000
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Zach Forbes",
-    "Total": "$1,071,000"
+    "Total": 1071000
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Tom Catanzarita",
-    "Total": "$920,275"
+    "Total": 920275
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Bella Nelson",
-    "Total": "$886,000"
+    "Total": 886000
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Value",
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Wade Miller",
-    "Total": "$796,800"
+    "Total": 796800
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bryan Johns",
-    "Total": "$111,576"
+    "Total": 111576
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Tom Catanzarita",
-    "Total": "$94,603"
+    "Total": 94603
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Zach Forbes",
-    "Total": "$84,520"
+    "Total": 84520
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Bella Nelson",
-    "Total": "$70,613"
+    "Total": 70613
   },
   {
-    "Period": "Q2 (Apr–Jun)",
+    "Period": "Q2 (Apr\u2013Jun)",
     "Metric": "Commission",
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Wade Miller",
-    "Total": "$66,696"
+    "Total": 66696
   },
   {
     "Period": "This Month",
@@ -605,7 +605,7 @@
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$1,459,000"
+    "Total": 1459000
   },
   {
     "Period": "This Month",
@@ -613,7 +613,7 @@
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$1,121,470"
+    "Total": 1121470
   },
   {
     "Period": "This Month",
@@ -621,7 +621,7 @@
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Adam Morton",
-    "Total": "$742,700"
+    "Total": 742700
   },
   {
     "Period": "This Month",
@@ -629,7 +629,7 @@
     "Role Type": "Top Closers",
     "Rank": 1,
     "Name": "Nolan Isabella",
-    "Total": "$117,832"
+    "Total": 117832
   },
   {
     "Period": "This Month",
@@ -637,7 +637,7 @@
     "Role Type": "Top Closers",
     "Rank": 2,
     "Name": "Alex Hoppe",
-    "Total": "$95,976"
+    "Total": 95976
   },
   {
     "Period": "This Month",
@@ -645,7 +645,7 @@
     "Role Type": "Top Closers",
     "Rank": 3,
     "Name": "Adam Morton",
-    "Total": "$44,550"
+    "Total": 44550
   },
   {
     "Period": "This Month",
@@ -693,7 +693,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bryan Johns",
-    "Total": "$1,099,000"
+    "Total": 1099000
   },
   {
     "Period": "This Month",
@@ -701,7 +701,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Zach Forbes",
-    "Total": "$946,000"
+    "Total": 946000
   },
   {
     "Period": "This Month",
@@ -709,7 +709,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Matt Smethurst",
-    "Total": "$610,833"
+    "Total": 610833
   },
   {
     "Period": "This Month",
@@ -717,7 +717,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Bella Nelson",
-    "Total": "$263,000"
+    "Total": 263000
   },
   {
     "Period": "This Month",
@@ -725,7 +725,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Adam Morton",
-    "Total": "$220,000"
+    "Total": 220000
   },
   {
     "Period": "This Month",
@@ -733,7 +733,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 1,
     "Name": "Bryan Johns",
-    "Total": "$79,696"
+    "Total": 79696
   },
   {
     "Period": "This Month",
@@ -741,7 +741,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 2,
     "Name": "Zach Forbes",
-    "Total": "$76,720"
+    "Total": 76720
   },
   {
     "Period": "This Month",
@@ -749,7 +749,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 3,
     "Name": "Matt Smethurst",
-    "Total": "$43,493"
+    "Total": 43493
   },
   {
     "Period": "This Month",
@@ -757,7 +757,7 @@
     "Role Type": "Top Package Pullers",
     "Rank": 4,
     "Name": "Bella Nelson",
-    "Total": "$20,740"
+    "Total": 20740
   },
   {
     "Period": "This Month",
@@ -765,6 +765,6 @@
     "Role Type": "Top Package Pullers",
     "Rank": 5,
     "Name": "Christina Benenati",
-    "Total": "$16,474"
+    "Total": 16474
   }
 ]
