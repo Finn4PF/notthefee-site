@@ -1,102 +1,66 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, #0a0a0a, #1c1c1c);
-  color: white;
-}
-.logo {
-  font-weight: bold;
-  color: #99ff33;
-  font-size: 1.5em;
-  padding: 10px 20px;
-}
-nav ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  justify-content: flex-end;
-  margin: 0;
-  padding: 10px 20px;
+  font-family: 'Segoe UI', sans-serif;
   background: #000;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-nav a:hover {
-  color: #ff9900;
-}
-.hero-center {
-  text-align: center;
-  margin-top: 40px;
-}
-.badge-adjusted {
-  display: block;
-  margin: 0 auto 10px;
-  width: 17%;
-}
-.glow-title-large {
-  font-size: 4em;
-  color: #ffcc00;
-  text-align: center;
-  margin-top: 0;
-  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffaa00;
-}
-.subtitle {
-  text-align: center;
-  margin: 0 auto 20px;
-}
-.buttons {
-  text-align: center;
-  margin-bottom: 40px;
-}
-.button {
-  padding: 10px 20px;
-  text-decoration: none;
-  margin: 5px;
-  display: inline-block;
-  border-radius: 5px;
-}
-.button.primary {
-  background: #ffaa00;
-  color: black;
-}
-.button.secondary {
-  background: #333;
   color: white;
 }
-#auth-section input {
-  padding: 8px;
-  font-size: 1em;
-  margin-right: 10px;
-}
-#manualUpdateOutput p {
-  margin: 5px 0;
-  color: #99ff33;
-}
-.standings-section {
-  margin: 40px 0;
-  padding: 20px;
+header {
+  text-align: center;
+  padding: 20px 0;
   background: #111;
+}
+h1 {
+  font-size: 2.5em;
+  color: #00ff66;
+}
+.leaderboard-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.leaderboard-box {
+  background: #111;
+  padding: 20px;
+  margin: 10px;
+  width: 45%;
   border: 1px solid #333;
   border-radius: 10px;
 }
-.standings-section h3, .standings-section h4 {
-  color: #ffaa00;
+.title {
+  text-align: center;
+  font-size: 1.8em;
+  color: #99ff33;
+  margin-bottom: 10px;
 }
-.deal-table {
+.tabs {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tab-button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.tab-button.active {
+  background: #00ff66;
+  color: black;
+}
+.leaderboard-table table {
   width: 100%;
   border-collapse: collapse;
-  margin: 10px 0 30px;
 }
-.deal-table th, .deal-table td {
+.leaderboard-table th, .leaderboard-table td {
   border: 1px solid #444;
-  padding: 8px 12px;
+  padding: 8px;
   text-align: left;
 }
-.deal-table th {
+.leaderboard-table th {
   background: #222;
   color: #99ff33;
 }

@@ -1,67 +1,46 @@
-// MANUAL UPDATE SECTION (admin password protected)
-function verifyPassword() {
-  const password = document.getElementById("adminPassword").value;
-  const correctPassword = "268Bro@dway";
-  if (password === correctPassword) {
-    document.getElementById("auth-section").style.display = "none";
-    document.getElementById("updateSection").style.display = "block";
-  } else {
-    alert("Incorrect password. Please try again.");
-  }
-}
+let standingsData = [];
 
-function applyManualUpdate() {
-  const input = document.getElementById("updateInput").value.trim();
-  const output = document.getElementById("manualUpdateOutput");
-  if (input === "") {
-    output.innerHTML = "<p>Please enter something to display.</p>";
-    return;
-  }
-  const formatted = input
-    .split('\n')
-    .map(line => `<p>• ${line}</p>`)
-    .join('');
-  output.innerHTML = `<h3>Latest Update</h3>${formatted}`;
-}
-
-// EMPLOYEE STANDINGS SECTION
 fetch('standings.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    const container = document.getElementById('milestones');
-    const roles = ['Top Closers', 'Top Package Pullers'];
-    const metrics = ['Deals', 'Value', 'Commission'];
-    const periods = ['This Month', 'Q2 (Apr–Jun)', 'Q1 (Jan–Mar)', 'Year-To-Date'];
-
-    roles.forEach(role => {
-      const section = document.createElement('div');
-      section.className = 'standings-section';
-      section.innerHTML = `<h3>${role}</h3>`;
-      periods.forEach(period => {
-        const group = data.filter(d =>
-          d['Role Type'] === role && d['Period'] === period
-        );
-
-        if (group.length === 0) return;
-
-        section.innerHTML += `<h4>${period}</h4>`;
-
-        metrics.forEach(metric => {
-          const rows = group.filter(d => d.Metric === metric);
-          if (rows.length === 0) return;
-          const table = document.createElement('table');
-          table.className = 'deal-table';
-          table.innerHTML = `
-            <thead><tr><th>${metric}</th><th>Name</th><th>Total</th></tr></thead>
-            <tbody>
-              ${rows
-                .map(row => `<tr><td>${row.Rank}</td><td>${row.Name}</td><td>${row.Total.toLocaleString()}</td></tr>`)
-                .join('')}
-            </tbody>
-          `;
-          section.appendChild(table);
-        });
-      });
-      container.appendChild(section);
-    });
+    standingsData = data;
+    renderLeaderboard('closer', 'Deals');
+    renderLeaderboard('puller', 'Deals');
   });
+
+function renderLeaderboard(roleKey, metric) {
+  const roleType = roleKey === 'closer' ? 'Top Closers' : 'Top Package Pullers';
+  const containerId = roleKey === 'closer' ? 'closer-leaderboard' : 'puller-leaderboard';
+  const filtered = standingsData.filter(d =>
+    d['Role Type'] === roleType &&
+    d['Period'] === 'Year-To-Date' &&
+    d['Metric'] === metric
+  );
+
+  const container = document.getElementById(containerId);
+  const rows = filtered.map(entry =>
+    `<tr><td>${entry.Metric}</td><td>${entry.Rank}</td><td>${entry.Name}</td><td>${metric === 'Value' || metric === 'Commission' ? '$' + entry.Total.toLocaleString() : entry.Total}</td></tr>`
+  ).join('');
+
+  container.innerHTML = `
+    <table>
+      <thead>
+        <tr><th>Metric</th><th>Rank</th><th>Name</th><th>Total</th></tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+function switchTab(roleKey, metric) {
+  document.querySelectorAll(`#${roleKey}-tabs .tab-button`).forEach(btn => {
+    btn.classList.remove('active');
+  });
+  const tabs = document.querySelectorAll(`#${roleKey}-tabs .tab-button`);
+  tabs.forEach(tab => {
+    if (tab.textContent.includes(metric)) {
+      tab.classList.add('active');
+    }
+  });
+  renderLeaderboard(roleKey, metric);
+}
