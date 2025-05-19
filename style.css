@@ -1,66 +1,92 @@
+
 body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: white;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #000;
-  color: white;
+  padding: 0;
+  text-align: center;
 }
+
 header {
-  text-align: center;
-  padding: 20px 0;
-  background: #111;
+  background-color: #111;
+  padding: 1rem;
 }
-h1 {
-  font-size: 2.5em;
-  color: #00ff66;
-}
-.leaderboard-container {
+
+nav ul {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
 }
-.leaderboard-box {
-  background: #111;
-  padding: 20px;
-  margin: 10px;
-  width: 45%;
-  border: 1px solid #333;
-  border-radius: 10px;
-}
-.title {
-  text-align: center;
-  font-size: 1.8em;
-  color: #99ff33;
-  margin-bottom: 10px;
-}
-.tabs {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.tab-button {
-  background: #222;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  margin: 0 5px;
-  cursor: pointer;
+
+nav ul li a {
+  background: linear-gradient(to right, #00ff88, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
-  border-radius: 5px;
+  text-decoration: none;
 }
-.tab-button.active {
-  background: #00ff66;
+
+.glow-title-large, h2, h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(to right, #00ff88, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+}
+
+#standings-filters {
+  margin: 1rem;
+}
+#standings-filters button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #111;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  cursor: pointer;
+}
+#standings-filters button:hover {
+  background-color: #00ff88;
   color: black;
 }
-.leaderboard-table table {
+
+.standings-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.standings-column {
+  flex: 1;
+  min-width: 400px;
+  max-width: 600px;
+  background-color: #111;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+table {
   width: 100%;
+  margin-top: 1rem;
   border-collapse: collapse;
 }
-.leaderboard-table th, .leaderboard-table td {
-  border: 1px solid #444;
+th, td {
   padding: 8px;
-  text-align: left;
+  border: 1px solid #333;
 }
-.leaderboard-table th {
-  background: #222;
-  color: #99ff33;
+th {
+  background: linear-gradient(to right, #00ff88, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #222;
 }
