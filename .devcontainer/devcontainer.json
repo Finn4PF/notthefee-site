@@ -1,0 +1,11 @@
+{
+  "name": "notthefee-site",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "npx serve .",
+  "forwardPorts": [3000],
+  "customizations": {
+    "codespaces": {
+      "openPorts": [3000]
+    }
+  }
+}
